@@ -8,6 +8,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <!-- Animasi AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- My Css -->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -41,9 +44,9 @@
 
     <!-- jumbotron -->
     <section class="jumbotron text-center" id="home">
-      <img src="img/img1.png" alt="ryo" width="200px" class="rounded-circle img-thumbnail" />
+      <img src="img/img1.png" alt="ryo" width="200px" class="rounded-circle img-thumbnail jumbotron-img" />
       <h1 class="display-4">Rinn still programming</h1>
-      <p class="lead">Anime Lovers | Gamers</p>
+      <p class="lead"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#fff"
@@ -64,10 +67,10 @@
         </div>
         <div class="row justify-content-evenly fs-5 text-center">
           <div class="col-md-4">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In repellendus quas sit obcaecati, ipsum ex consequatur assumenda laudantium et! Laboriosam.</p>
+            <p data-aos="fade-right" data-aos-duration="500">Lorem ipsum dolor sit amet consectetur adipisicing elit. In repellendus quas sit obcaecati, ipsum ex consequatur assumenda laudantium et! Laboriosam.</p>
           </div>
           <div class="col-md-4">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quis placeat voluptates sunt provident tenetur earum consequuntur iure veniam aspernatur?</p>
+            <p data-aos="fade-left" data-aos-duration="500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quis placeat voluptates sunt provident tenetur earum consequuntur iure veniam aspernatur?</p>
           </div>
         </div>
       </div>
@@ -90,41 +93,43 @@
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-md-4 mb-3">
+          <div class="col-md-3 mb-3">
             <div class="card">
-              <img src="img/project/1.png" class="card-img-top" alt="ryo1" />
+              <img src="img/project/1.png" class="card-img-top" alt="ryo1" data-aos="flip-left" data-aos-duration="500" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-md-3 mb-3">
             <div class="card">
-              <img src="img/project/2.png" class="card-img-top" alt="ryo2" />
+              <img src="img/project/2.png" class="card-img-top" alt="ryo2" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-md-3 mb-3">
             <div class="card">
-              <img src="img/project/3.png" class="card-img-top" alt="ryo3" />
+              <img src="img/project/3.png" class="card-img-top" alt="ryo3" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-3 mb-3">
             <div class="card">
-              <img src="img/project/4.png" class="card-img-top" alt="ryo4" />
+              <img src="img/project/4.png" class="card-img-top" alt="ryo4" data-aos="flip-left" data-aos-duration="500" data-aos-offset="93" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-md-3 mb-3">
             <div class="card">
-              <img src="img/project/5.png" class="card-img-top" alt="ryo5" />
+              <img src="img/project/5.png" class="card-img-top" alt="ryo5" data-aos="flip-left" data-aos-duration="500" data-aos-delay="100" data-aos-offset="93" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -141,6 +146,78 @@
       </svg>
     </section>
     <!-- akhir projects -->
+
+    <!-- gallery -->
+    <section id="gallery">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2>Gallery</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/gambar1.png" alt="gambar ai ke-1" class="img-fluid gallery-image" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/gambar2.png" alt="gambar ai ke-2" class="img-fluid gallery-image" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/gambar3.png" alt="gambar ai ke-3" class="img-fluid gallery-image" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/gambar4.png" alt="gambar ai ke-4" class="img-fluid gallery-image" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/gambar5.png" alt="gambar ai ke-5" class="img-fluid gallery-image" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/gambar6.png" alt="gambar ai ke-6" class="img-fluid gallery-image" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/gambar7.png" alt="gambar ai ke-7" class="img-fluid gallery-image" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/gambar8.png" alt="gambar ai ke-8" class="img-fluid gallery-image" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/gambar9.png" alt="gambar ai ke-9" class="img-fluid gallery-image" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/gallery/thumbnail/gambar10.png" alt="gambar ai ke-10" class="img-fluid gallery-image" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#e8e8f0"
+          fill-opacity="1"
+          d="M0,192L48,208C96,224,192,256,288,256C384,256,480,224,576,192C672,160,768,128,864,138.7C960,149,1056,203,1152,218.7C1248,235,1344,213,1392,202.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <!-- akhir gallery -->
 
     <!-- contact -->
     <section id="contact">
@@ -196,7 +273,34 @@
     <!-- akhir footer -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
+      const galleryImage = document.querySelectorAll(".gallery-image");
+
+      galleryImage.forEach((img, i) => {
+        img.dataset.aos = "fade-down";
+        img.dataset.aosDelay = i * 50;
+        img.dataset.aosDuration = 500;
+      });
+
+      AOS.init({
+        once: true,
+      });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/TextPlugin.min.js"></script>
+
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to(".lead", {duration:1.2, delay: 1, text: "Anime Lovers | Gamers" });
+      gsap.from(".jumbotron-img", { duration:.7, rotateY: 350, opacity:0});
+      gsap.from(".navbar", {duration:1, y:'-100%', opacity:0, ease: "bounce"});
+      gsap.from(".display-4", {duration:.7, y: -50, opacity:0, ease: "elastic", delay: 0.6});
+    </script>
+
+    <script>
+      
       const scriptURL = "https://script.google.com/macros/s/AKfycbygnEwDkVMhFlj-dvvDYq9WC6xcMj3djmPvMMGBhB2iqFhVbomVJ8cMAfOtwL18jGe3Jg/exec";
       const form = document.forms["Rinn-Contact-Form"];
       const btnKirim = document.querySelector(".btn-kirim");

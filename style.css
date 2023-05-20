@@ -7,6 +7,26 @@
   background-color: rgb(232, 232, 240);
 }
 
+#contact {
+  background-color: rgb(232, 232, 240);
+}
+
+
 section {
   padding-top: 6rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#gallery .container img {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 2px;
+}
+
+#gallery .row > * {
+  box-sizing: border-box;
+  padding: 5px;
 }
