@@ -34,3 +34,13 @@ html {
   box-sizing: border-box;
   padding: 5px;
 }
+
+.nav-tabs {
+  position: relative;
+  top: 8px;
+}
+
+#projects p {
+  text-align: justify;
+}
+
